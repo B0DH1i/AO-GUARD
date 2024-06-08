@@ -1,0 +1,67 @@
+.meme-footer {
+  background-color: transparent;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  position: relative;
+}
+
+.meme-footer::before {
+  content: '';
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 100%;
+  border-top: 1px solid #444;
+}
+
+.meme-footer-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 20px 50px;
+  width: 100%;
+}
+
+.meme-footer-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px; 
+}
+
+.meme-footer-logo-img {
+  height: 60px; 
+}
+
+.meme-footer-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.meme-footer-link {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  padding: 10px 20px;
+  border: 1px solid #61dafb;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.meme-footer-link:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  transform: scale(1.05);
+}
+
+.meme-footer-bottom {
+  margin-top: 10px;
+  font-size: 0.9em;
+}

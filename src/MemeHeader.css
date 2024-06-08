@@ -1,0 +1,71 @@
+.meme-header {
+    background: linear-gradient(45deg, #1a2a6c, #b21f1f, #fdbb2d);
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid #444;
+  }
+  
+  .meme-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .meme-header-logo a {
+    color: #fff;
+    font-size: 1.8em;
+    text-decoration: none;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .meme-header-nav {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+    flex: 1;
+  }
+  
+  .meme-header-list {
+    list-style: none;
+    display: flex;
+    align-items: center; 
+    margin: 0;
+    padding: 0;
+  }
+  
+  .meme-header-item {
+    margin-left: 20px;
+    display: flex;
+    align-items: center; 
+  }
+  
+  .meme-header-item a,
+  .connect-wallet-button {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    position: relative;
+    transition: color 0.3s ease, transform 0.2s ease;
+    padding: 8px 16px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    display: flex;
+    align-items: center; 
+  }
+  
+  .meme-header-item a:hover,
+  .connect-wallet-button:hover {
+    color: #61dafb;
+    border-color: #61dafb;
+    background-color: rgba(0, 0, 0, 0.7);
+    transform: scale(1.05);
+  }
+  
